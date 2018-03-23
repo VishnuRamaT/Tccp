@@ -15,7 +15,7 @@ public class GossipClient
      InputStream istream = sock.getInputStream();
      BufferedReader receiveRead = new BufferedReader(new InputStreamReader(istream));
  
-     System.out.println("Start the chitchat, type and press Enter key");
+     System.out.println("Start the communication, type and press Enter key");
  
      String receiveMessage, sendMessage;               
      while(true)
